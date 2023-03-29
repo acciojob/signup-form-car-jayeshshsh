@@ -10,7 +10,77 @@
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
-
+<body>
+		<form action="" method="car">
+			<header>
+				<h3>Signup Form Car</h3>
+			</header>
+			<div>
+				<label for="name">Name*</label>
+				<input type="text" id="name" name="name" placeholder="name" required>
+			</div>
+	
+			<div>
+				<label for="email">Email*</label>
+				<input type="email" name="email" id="email" placeholder="email">
+			</div>
+	
+			<div>
+				<label for="gender">Gender*</label>
+				<br>
+	
+				<input type="radio" id="male" name="gender" value="male" required>
+				<label for="male">Male</label>
+				<br>
+				
+				<input type="radio" id="female" name="gender" value="female" required>
+				<label for="female">Female</label>
+				<br>
+			</div>
+	
+			<div>
+				<label for="Car">Car Brands*</label>
+				<select name="Car" id="Car" required>
+					<option value="" selected disabled>--Please choose an option--</option>
+					<option value="BMW">BMW</option>
+				<option value="Audi">Audi</option>
+				<option value="Mercedez">Mercedez</option>
+				</select>			
+			</div>
+	
+			<div>
+				<label for="age">Age*</label>
+				<input type="number" name="age" id="age" placeholder="age" required>
+				<br>
+			</div>
+	
+			<div>
+				<label for="dob">DOB*</label>
+				<input type="date" name="dob" id="dob" required>
+			</div>
+	
+			<div>
+				<label for="phone no.">Phone Number</label>
+				<input type="tel" id="phone no." name="phone no." placeholder="xxx-xxx-xxxx">
+			</div>
+	
+			<div>
+				<label for="password">Password*</label>
+				<input type="password" id="password" name="password" placeholder="Password" required>
+			</div>
+	
+			<div>
+				<label for="tos">I agree to the TOS.*</label>
+				<input type="checkbox" id="tos" name="tos" required>
+				<br>
+			</div>
+	
+			<div>
+				<button type="submit">submit button</button>
+				<br>
+			</div>
+		</form>	
+	</body>
 </body>
 
 </html>
